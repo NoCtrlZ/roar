@@ -1,0 +1,24 @@
+{
+  "name": "roar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoCtrlZ/roar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoCtrlZ/roar/issues"
+  },
+  "homepage": "https://github.com/NoCtrlZ/roar#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
