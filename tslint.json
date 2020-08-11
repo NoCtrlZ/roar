@@ -8,7 +8,6 @@
       "prettier": true,
       "quotes": [2, "single"],
       "no-unused-vars": ["error", { "vars": "local" }],
-      "no-undef": "error",
-      "no-prototype-builtins": 0
+      "no-console": false
     }
 }
