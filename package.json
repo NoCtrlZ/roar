@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "do": "ts-node src",
+    "send": "ts-node src",
     "tsc": "tsc",
     "prettier": "prettier --write src",
     "lint": "tslint --fix src/**/*.ts",
@@ -41,7 +41,7 @@
   "lint-staged": {
     "*.ts": [
       "prettier --write src",
-      "eslint --fix src/**/*.js",
+      "tslint --fix src/**/*.ts",
       "git add"
     ]
   }
