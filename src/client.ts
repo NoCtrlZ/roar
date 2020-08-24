@@ -1,5 +1,6 @@
 import net from 'net';
 import Request from './request';
+import Response from './response';
 
 export default class Client {
     host: string;
@@ -12,16 +13,15 @@ export default class Client {
         this.charSet = charSet;
     }
 
-    get = (path: string): Promise<string> =>
+    get = (path: string): Promise<Response> =>
         new Promise((resolve) => {
             const socket = newSocket();
             const request = new Request(path, 'GET');
             const content = `${request.getPrefix()}${request.getOrigin()}${request.getContentType()}\r\n`;
-            console.log('contents is ', content);
             socket.connect(this.port, this.host, () => socket.write(content));
             socket.on('data', (data: any) => {
                 socket.destroy();
-                resolve(data.toString());
+                resolve(new Response(data.toString()));
             });
         });
 }

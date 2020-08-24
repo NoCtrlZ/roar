@@ -5,7 +5,7 @@ const host = 'localhost';
 
 const sendRequest = () => {
     const client = new Client(host, port);
-    client.get('/').then((res) => {
+    client.get('/path').then((res) => {
         console.log(res);
     });
 };
