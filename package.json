@@ -1,8 +1,8 @@
 {
   "name": "hear_me_roar",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "",
-  "main": "index.js",
+  "main": "client.js",
   "scripts": {
     "send": "ts-node src",
     "build": "tsc",
@@ -17,8 +17,7 @@
     "url": "git+https://github.com/NoCtrlZ/roar.git"
   },
   "files": [
-    "lib",
-    "index.js"
+    "lib"
   ],
   "keywords": [],
   "author": "",
@@ -51,6 +50,6 @@
     ]
   },
   "dependencies": {
-    "hear_me_roar": "^0.1.0"
+    "hear_me_roar": "^0.1.3"
   }
 }

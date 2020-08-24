@@ -397,6 +397,13 @@ hear_me_roar@^0.1.0:
   dependencies:
     hear_me_roar "^0.0.1"
 
+hear_me_roar@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/hear_me_roar/-/hear_me_roar-0.1.2.tgz#605b10b6040e7181657bbf862dca205e20385404"
+  integrity sha512-gixP/QjUS8pj4lEzryE5Hk5h+rZApRnOlutbzhjpu+f+iHmtiRhCHP/tWci+d1s8KpKVCk3fkOVrYdFkUv58FA==
+  dependencies:
+    hear_me_roar "^0.1.0"
+
 human-signals@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
