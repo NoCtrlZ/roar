@@ -1,11 +1,12 @@
 {
   "name": "hear_me_roar",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
     "send": "ts-node src",
     "build": "tsc",
+    "pub": "npm run build && npm publish",
     "prettier": "prettier --write src",
     "lint": "tslint --fix src/**/*.ts",
     "tslint-check": "tslint-config-prettier-check ./tslint.json",
@@ -47,5 +48,8 @@
       "tslint --fix src/**/*.ts",
       "git add"
     ]
+  },
+  "dependencies": {
+    "hear_me_roar": "^0.0.1"
   }
 }

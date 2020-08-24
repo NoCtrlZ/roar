@@ -385,6 +385,11 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
+hear_me_roar@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/hear_me_roar/-/hear_me_roar-0.0.1.tgz#5c1c6174a05fe129b44d40d5acfc58ddf3c5b6f0"
+  integrity sha512-XHVlMqY3Vbe4ytcrmOZ1uxUXqo9Jkt9fM7KVKh+wUu2KvcE4VkJXyaKAMi+yX6qCWKXPenrnoQe8P5OqPnAQcg==
+
 human-signals@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
