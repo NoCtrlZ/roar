@@ -385,24 +385,12 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
-hear_me_roar@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/hear_me_roar/-/hear_me_roar-0.0.1.tgz#5c1c6174a05fe129b44d40d5acfc58ddf3c5b6f0"
-  integrity sha512-XHVlMqY3Vbe4ytcrmOZ1uxUXqo9Jkt9fM7KVKh+wUu2KvcE4VkJXyaKAMi+yX6qCWKXPenrnoQe8P5OqPnAQcg==
-
-hear_me_roar@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/hear_me_roar/-/hear_me_roar-0.1.0.tgz#c25021b09313d09d84aebceccad2e50508d2ec86"
-  integrity sha512-ExaCnx8pCzNdl9OwRX5DKwiIyUImkoh41ISIhzX33M5tq/oE0CiM3ayshjYNL7mt273/4zcpIGEcJask8O0uFQ==
+hear_me_roar@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/hear_me_roar/-/hear_me_roar-0.1.6.tgz#b8ee6ad9914552e283f8df127a7d7235b887137c"
+  integrity sha512-Ag1/DUlNpHb1FGYCGPeMapYzkDlK3Vbj8VnQcr4l0AtQICswASxWECnr/KfJUQpzA6xgmYYVi7W3SamjMi4Y/g==
   dependencies:
-    hear_me_roar "^0.0.1"
-
-hear_me_roar@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/hear_me_roar/-/hear_me_roar-0.1.2.tgz#605b10b6040e7181657bbf862dca205e20385404"
-  integrity sha512-gixP/QjUS8pj4lEzryE5Hk5h+rZApRnOlutbzhjpu+f+iHmtiRhCHP/tWci+d1s8KpKVCk3fkOVrYdFkUv58FA==
-  dependencies:
-    hear_me_roar "^0.1.0"
+    hear_me_roar "^0.1.6"
 
 human-signals@^1.1.1:
   version "1.1.1"

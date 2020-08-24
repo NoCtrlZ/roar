@@ -1,2 +1,3 @@
-const Client = require('hear_me_roar')
-console.log(Client)
+const Client = require('./lib/client').default
+const client = new Client('localhost', 3000)
+console.log(client)
