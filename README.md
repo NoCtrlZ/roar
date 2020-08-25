@@ -27,3 +27,9 @@ request()
 ```
 $ npm install --save hear_me_roar
 ```
+## Roadmap
+- [ ] Support To Set Header
+- [ ] Security Check
+- [ ] Optimization
+- [ ] Integration Test
+- [ ] Refactoring
